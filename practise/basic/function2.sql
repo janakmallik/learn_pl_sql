@@ -1,0 +1,21 @@
+SET SERVEROUTPUT ON;
+
+CREATE OR REPLACE FUNCTION new_func(x IN NUMBER)
+RETURN NUMBER
+IS
+    y NUMBER;
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(x);
+    y := x * 5;
+    RETURN y;
+END new_func;
+/
+
+DECLARE
+    a NUMBER;
+BEGIN
+    a := new_func(5);
+    DBMS_OUTPUT.PUT_LINE(a);
+END;
+/
