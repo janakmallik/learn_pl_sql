@@ -52,6 +52,8 @@ INSERT INTO patient VALUES (4, 'William Martin', 40, 'Male', '78 Pall Mall', '92
 
 INSERT INTO patient VALUES (5, 'Coco', 18, 'Female', '78 Pall Mall', '9934567810');
 
+INSERT INTO patient VALUES (6, 'janak', 156, 'male', '78 dhaka Mall', '9934854810');
+
 
 INSERT INTO doctor VALUES (1, 'Dr. Robert Johnson', 'Cardiology', '5551234567');
 
